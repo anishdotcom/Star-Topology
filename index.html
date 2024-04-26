@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Topology</title>
+    <style>
+        * {
+            margin-left: 2%;
+            margin-right: 2%;
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+
+        p {
+            margin-left: 2%;
+            margin-right: 2%;
+        }
+
+        .butto {
+            text-align: center;
+        }
+
+        .male {
+            background-color: rgb(0, 0, 0);
+
+
+
+
+            color: #ffffff;
+            /* White text */
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            /* Remove underline from link */
+            margin-right: 10px;
+
+        }
+
+        .male:hover {
+            opacity: 0.7;
+
+        }
+
+        .male:active {
+            opacity: 0.4;
+        }
+
+        /* Styling for Mugiwara Website button */
+        .mugiwara-button {
+
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #ff0000;
+            /* Red background */
+            color: #ffffff;
+            /* White text */
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            /* Remove underline from link */
+            margin-right: 10px;
+
+
+        }
+
+
+        .mugiwara-button:hover {
+            background-color: #cc0000;
+            /* Darker red on hover */
+        }
+
+        .mugiwara-button:active {
+            opacity: 0.7;
+        }
+
+        /* Styling for Google button */
+        .google-button {
+
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #4285f4;
+            /* Google blue */
+            color: #ffffff;
+            /* White text */
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            /* Remove underline from link */
+
+            margin-left: 10px;
+        }
+
+
+        .google-button:hover {
+            background-color: #3367d6;
+            /* Darker blue on hover */
+        }
+
+        .google-button:active {
+            opacity: 0.7;
+        }
+
+
+
+
+
+
+        .star {
+            text-align: center;
+
+            margin-top: 2vw;
+            margin-bottom: 2vw;
+
+        }
+
+        .starv {
+            text-align: center;
+    
+        }
+
+
+
+        .form {
+            text-align: center;
+            margin-left: 20vw;
+            margin-right: 20vw;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Overview of Star Topology</h1>
+
+    <div id="para" <p> Star topology is a network topology where each device in the network is connected to a central
+        point, which can
+        be a hub, switch, or router. This central point acts as a distribution point for data transmission. Unlike bus
+        or ring topologies where devices are connected in a linear or circular fashion, star topology resembles a
+        centralized layout with the central point at its core.</p><br>
+    </div>
+
+    <div class="star" <br>
+        <img src="star.png" alt="pic" <br>
+        <p style="color: rgb(127, 121, 121); text-align: center; font-size: 16px; font-style: italic;">Diagram of Star
+            Topology</p>
+
+
+
+    </div>
+
+
+    <h2>Hub or Switch</h2>
+    <p>The central component of a star network is typically a hub or a switch. This device
+        manages and controls the flow of data between connected devices. Hubs operate at the physical layer (Layer
+        1) of the OSI model, while switches operate at the data link layer (Layer 2) and are more efficient in
+        handling traffic. </p>
+    <h2> End Devices</h2>
+    <p> These are the peripheral devices (such as computers, printers, servers, etc.) that connect to
+        the central hub or switch via individual network cables. Each device has its own dedicated connection to the
+        central point. </p>
+
+    <div class="star" <br>
+        <h2>Understand Star Topology Through This Video</h2>
+    </div>
+    <div class="starv" <br>
+        <iframe width="95% " height="600vw" src="https://www.youtube.com/embed/Ow_QLUNGWms?si=Ys7LQBI6s14W0RpK"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin " allowfullscreen></iframe>
+    </div>
+    <div class="form">
+        <h3> To Join Our Course</h3>
+        <p style="color: rgb(116, 114, 113); font-size: 16px;">Please fill the following details and then our team will reach
+            out to you &nbsp;</p>
+
+        <form action="is a form"></form>
+        <label for="Name">Enter Your Name: &nbsp;</label><br>
+        <input type="text">
+        <br> <label for="Gender"><br>Select Your Gender:&nbsp;</label><br>
+        <input type="button" class="male" ;" value="Male">
+        <input type="button" class="male" ; style="background-color: rgb(233, 113, 221);" value="Female">
+        <!-- <input type="text"> -->
+        <br><label for="Address"><br> Enter Your Address: &nbsp;</label><br>
+        <input type="text">
+        <br><label for="time"><br>Date of Birth:&nbsp;</label><br>
+        <input type="date"><br>
+        <br><label for="Contact">Contact Number: &nbsp;</label><br>
+        <input type="number"><br>
+        
+
+        <br> <input class="male" style="background-color: rgb(16, 159, 111);" type="button" value="Submit">
+    </div>
+
+
+
+    <div class="butto">
+        <p style="color: rgb(116, 114, 113); font-size: 16px;">Click the below button to know more about us:&nbsp;</p>
+
+        <head>
+            <a- target="_blank" href="https://anishdotcom.github.io/First/">
+                <button class="mugiwara-button">Open Website </button>
+                </a>
+
+        </head>
+
+        <a target="_blank" href="https://www.google.com">
+            <button class="google-button">Open Google</button> <br>
+        </a>
+    </div>
+
+
+
+</body>
+
+</html>
